@@ -3,7 +3,7 @@ import React from 'react';
 import Header from './pages/home/header/header.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+function App() {  
   return (
     <div className="App">
       <Header></Header>
