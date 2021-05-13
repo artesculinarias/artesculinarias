@@ -1,0 +1,112 @@
+// color pallete
+$bg-color: #fff;
+$primary-text-color: black;
+$highlight-color: #461A5D;
+$selection-color: #FF1DDD;
+
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.Body {
+    background-color: $bg-color;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    font-size: calc(10px + 2vmin);
+}
+
+/*.body__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}*/
+
+.body__text-container {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.body__text-main {
+    color: $primary-text-color;
+    padding: 5% 15%;
+    align-items: center;
+}
+
+.body__text-highlight {
+    color: $highlight-color;
+}
+
+.body__link-text {
+    color: $selection-color;
+    font-size: 30px;
+
+    h3 {
+        display: inline;
+    }
+}
+
+.body__image-container {
+    padding: 0;
+    grid-row: 1;
+    grid-column: 2;
+    background-image: url(../../../assets/imgs/dish1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and(max-width: 700px) {
+    .body__text-container {
+        .body__text-main {
+            font-size: 2rem;
+        }
+        
+        .body__link-text {
+            font-size: 1.8rem;
+        }
+    }
+}
+
+@media screen and(max-width: 630px) {
+    .body__text-container {
+        .body__text-main {
+            font-size: 1.8rem;
+        }
+        
+        .body__link-text {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media screen and(max-width: 500px) {
+    .body__text-container {
+        .body__text-main {
+            font-size: 1.6rem;
+        }
+        
+        .body__link-text {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media screen and(max-width: 450px) {
+    .Body {
+        grid-template-columns: 2fr 1fr !important;
+    }
+
+    .body__text-container {
+        .body__text-main {
+            font-size: 2rem;
+        }
+        
+        .body__link-text {
+            font-size: 1.9rem;
+        }
+    }
+}

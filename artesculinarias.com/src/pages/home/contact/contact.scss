@@ -1,0 +1,132 @@
+// color pallete
+$bg-color: #fff;
+$primary-text-color: black;
+$highlight-color: #461A5D;
+$selection-color: #FF1DDD;
+
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.Contact {
+    background-color: $bg-color;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+    font-size: calc(10px + 2vmin);
+}
+
+.contact__text-container {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.contact__text-list-box {
+    text-align: left;
+    padding: 0 3rem;
+}
+
+.contact__text-subtitle {
+    color: $highlight-color;
+    padding: 0 10%;
+}
+
+.contact__text-main {
+    color: $primary-text-color;
+    padding: 5% 15%;
+}
+
+.contact__text-highlight {
+    color: $highlight-color;
+}
+
+.contact__link-text {
+    color: $selection-color;
+    font-size: 30px;
+
+    h3 {
+        display: inline;
+    }
+}
+
+.contact__image-container {
+    padding: 0;
+    grid-row: 1;
+    grid-column: 1;
+    background-image: url(../../../assets/imgs/dish2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and(max-width: 700px) {
+    .contact__text-container {
+        .contact__text-main {
+            font-size: 2rem;
+        }
+        
+        h4.contact__text-main {
+            font-size: 1.3rem;
+        }
+
+        .contact__text-subtitle {
+            font-size: 1.5rem;
+        }
+
+        .contact__link-text {
+            font-size: 1.8rem;
+        }
+
+    }
+}
+
+@media screen and(max-width: 630px) {
+    .contact__text-container {
+        .contact__text-main {
+            font-size: 1.8rem;
+        }
+        
+        .contact__link-text {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media screen and(max-width: 500px) {
+    .contact__text-container {
+        .contact__text-main {
+            font-size: 1.6rem;
+        }
+        
+        .contact__link-text {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media screen and(max-width: 450px) {
+    .Contact {
+        grid-template-columns: 2fr 1fr !important;
+    }
+
+    .contact__text-container {
+        .contact__text-main {
+            font-size: 1.4rem;
+        }
+
+        h4.contact__text-main {
+            font-size: 1.1rem;
+        }
+        
+        .contact__link-text {
+            font-size: 1.3rem;
+        }
+
+        .contact__text-subtitle {
+            font-size: 1.3rem;
+        }
+    }
+}

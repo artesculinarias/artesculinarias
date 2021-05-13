@@ -1,23 +1,28 @@
 import React from 'react'
+import '../header/header.css'
 import '/Users/Kevin/Documents/GitHub/artesculinarios.com/artesculinarias.com/src/App.css';
 import Navigation from './organisms/nav.js'
 import HeaderView from './organisms/header-view.js'
 
 function Header() {
     return (
-        <div className="App-header">
+        <div className="App-header" id="headerbm">
           {/*--- Top Navigation bar ---*/}
           <div className="fixed-top">
-            <Navigation fix="margin-text-white" pos="default"></Navigation>
+            <Navigation fix="margin-text-white" pos="default navibar"></Navigation>
             <hr/>
           </div>
-          {/*--- Bottom navigation line ---*/}
-          <div className="fixed-bottom">
+          <div className="fix-ct-top mb-auto">
             <hr/>
-            <Navigation pos="default" fix="margin-text-transparent"></Navigation>
+            <Navigation pos="default" fix="margin-text-transparent" hasnonavcollapse={true} ></Navigation>
           </div>
-          {/*--- Bottom navigation line ---*/}
           <HeaderView></HeaderView>
+          {/*--- Bottom navigation line ---*/}
+          <div className="fix-ct-bottom mt-auto">
+            <hr/>
+            <Navigation pos="default" fix="margin-text-transparent" hasnonavcollapse={true} ></Navigation>
+          </div>
+          {/*--- Bottom navigation line ---*/}
         </div>
     );
   }

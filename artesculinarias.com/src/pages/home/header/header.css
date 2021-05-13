@@ -1,0 +1,16 @@
+.App-header {
+  background-image: url("../../../assets/imgs/jason-briscoe-GliaHAJ3_5A-unsplash (2).jpg");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative; }
+
+.fix-ct-bottom {
+  position: relative !important;
+  bottom: 0px;
+  width: 100%; }
