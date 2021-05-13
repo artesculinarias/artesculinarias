@@ -1,6 +1,5 @@
 import React from 'react'
 import '../body/body.css'
-import '/Users/Kevin/Documents/GitHub/artesculinarios.com/artesculinarias.com/src/App.css';
 
 function Body(props) {
     return (

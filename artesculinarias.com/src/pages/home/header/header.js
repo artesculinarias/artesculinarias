@@ -1,6 +1,5 @@
 import React from 'react'
 import '../header/header.css'
-import '/Users/Kevin/Documents/GitHub/artesculinarios.com/artesculinarias.com/src/App.css';
 import Navigation from './organisms/nav.js'
 import HeaderView from './organisms/header-view.js'
 

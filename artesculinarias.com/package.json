@@ -1,5 +1,6 @@
 {
   "name": "artesculinarias.com",
+  "homepage": "artesculinarias.github.com/artesculinarias",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,7 +24,9 @@
     "eject": "react-scripts eject",
     "scss": "sass --watch src/pages/home/header/organisms/nav.scss:src/pages/home/header/organisms/nav.css src/pages/home/header/organisms/header-view.scss:src/pages/home/header/organisms/header-view.css src/pages/home/body/body.scss:src/pages/home/body/body.css",
     "build-css": "node-sass-chokidar src/ -o src/",
-    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive"
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
