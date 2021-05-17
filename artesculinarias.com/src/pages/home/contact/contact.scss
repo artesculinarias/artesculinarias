@@ -30,29 +30,13 @@ $selection-color: #FF1DDD;
     padding: 0 3rem;
 }
 
-.contact__text-subtitle {
-    color: $highlight-color;
-    padding: 0 10%;
-}
-
 .contact__text-main {
-    color: $primary-text-color;
     padding: 5% 15%;
 }
 
-.contact__text-highlight {
-    color: $highlight-color;
+.contact__text-subtitle {
+    padding: 0;
 }
-
-.contact__link-text {
-    color: $selection-color;
-    font-size: 30px;
-
-    h3 {
-        display: inline;
-    }
-}
-
 .contact__image-container {
     padding: 0;
     grid-row: 1;

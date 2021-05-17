@@ -18,22 +18,11 @@
   text-align: left;
   padding: 0 3rem; }
 
-.contact__text-subtitle {
-  color: #461A5D;
-  padding: 0 10%; }
-
 .contact__text-main {
-  color: black;
   padding: 5% 15%; }
 
-.contact__text-highlight {
-  color: #461A5D; }
-
-.contact__link-text {
-  color: #FF1DDD;
-  font-size: 30px; }
-  .contact__link-text h3 {
-    display: inline; }
+.contact__text-subtitle {
+  padding: 0; }
 
 .contact__image-container {
   padding: 0;

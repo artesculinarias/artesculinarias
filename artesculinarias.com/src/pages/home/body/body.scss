@@ -29,16 +29,7 @@ $selection-color: #FF1DDD;
 .body__text-container {
     grid-row: 1;
     grid-column: 1;
-}
-
-.body__text-main {
-    color: $primary-text-color;
-    padding: 5% 15%;
-    align-items: center;
-}
-
-.body__text-highlight {
-    color: $highlight-color;
+    padding: 10px;
 }
 
 .body__link-text {

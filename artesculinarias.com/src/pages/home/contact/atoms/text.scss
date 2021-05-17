@@ -1,0 +1,24 @@
+$primary-text-color: black;
+$highlight-color: #461A5D;
+$selection-color: #FF1DDD;
+
+.textfield__text-subtitle {
+    color: $highlight-color;
+}
+
+.textfield__text-main {
+    color: $primary-text-color;
+}
+
+.textfield__text-highlight {
+    color: $highlight-color;
+}
+
+.textfield__link-text {
+    color: $selection-color;
+    font-size: 30px;
+
+    h3 {
+        display: inline;
+    }
+}

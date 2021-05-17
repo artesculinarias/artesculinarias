@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  font-family: "Poppins", sans-serif; }
+
+.textfield__text-subtitle {
+  color: #461A5D; }
+
+.textfield__text-main {
+  color: black; }
+
+.textfield__text-highlight {
+  color: #461A5D; }
+
+.textfield__link-text {
+  color: #FF1DDD;
+  font-size: 30px; }
+  .textfield__link-text h3 {
+    display: inline; }

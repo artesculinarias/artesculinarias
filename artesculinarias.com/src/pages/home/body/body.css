@@ -17,15 +17,8 @@
 }*/
 .body__text-container {
   grid-row: 1;
-  grid-column: 1; }
-
-.body__text-main {
-  color: black;
-  padding: 5% 15%;
-  align-items: center; }
-
-.body__text-highlight {
-  color: #461A5D; }
+  grid-column: 1;
+  padding: 10px; }
 
 .body__link-text {
   color: #FF1DDD;

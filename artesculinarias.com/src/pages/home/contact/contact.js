@@ -1,5 +1,6 @@
 import React from 'react'
 import '../contact/contact.css'
+import TextField from '../../../components/text.js'
 
 function Contact(props) {
     return (
@@ -9,26 +10,27 @@ function Contact(props) {
           <div className="contact__text-container  d-flex align-items-center flex-">
             <div className="d-flex flex-column">
               <h1 className="contact__text-main">
-                Nuestros medios de contacto:
+                <TextField textType="text-main" content="Nuestros medio de contacto:"></TextField>
               </h1>
               <div className="contact__text-list-box">
-                <h3  className="contact__text-subtitle p-0">
-                  PROFESORA:
+                <h3 className="contact__text-subtitle">
+                  <TextField textType="text-subtitle" content="PROFESORA:"></TextField>
                 </h3>
                 <h4 className="contact__text-main p-0">
-                  Geovanna Calderón flores
+                  <TextField textType="text-main" content="Geovanna Calderón flores"></TextField>
+                </h4>
+                <h3  className="contact__text-subtitle">
+                  <TextField textType="text-subtitle" content="TÉLEFONO:"></TextField> 
+                </h3>
+                <h4 className="contact__text-main p-0">
+                  <TextField textType="text-main" content="+506 8365 2871"></TextField> 
                 </h4>
                 <h3  className="contact__text-subtitle p-0">
-                  TÉLEFONO:
+                  <TextField textType="text-subtitle" content="LUGAR"></TextField>
                 </h3>
                 <h4 className="contact__text-main p-0">
-                  +506 8365 2871
-                </h4>
-                <h3  className="contact__text-subtitle p-0">
-                  LUGAR:
-                </h3>
-                <h4 className="contact__text-main p-0">
-                  POCOCí, GUAPILES
+                  <TextField textType="text-main" content="+506 8365 2871"></TextField> 
+                  Pococí, Guapiles
                 </h4>
               </div>
             </div>
