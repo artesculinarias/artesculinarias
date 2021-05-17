@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "./static/css/main.36bcec14.chunk.css",
-    "main.js": "./static/js/main.09b3c0a9.chunk.js",
-    "main.js.map": "./static/js/main.09b3c0a9.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.c2cbd3db.js",
-    "runtime-main.js.map": "./static/js/runtime-main.c2cbd3db.js.map",
+    "main.css": "./static/css/main.1c77a5cd.chunk.css",
+    "main.js": "./static/js/main.c2875d96.chunk.js",
+    "main.js.map": "./static/js/main.c2875d96.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.c9e4f34a.js",
+    "runtime-main.js.map": "./static/js/runtime-main.c9e4f34a.js.map",
     "static/css/2.4c97ca4f.chunk.css": "./static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.c3d33189.chunk.js": "./static/js/2.c3d33189.chunk.js",
-    "static/js/2.c3d33189.chunk.js.map": "./static/js/2.c3d33189.chunk.js.map",
-    "static/js/3.365af15b.chunk.js": "./static/js/3.365af15b.chunk.js",
-    "static/js/3.365af15b.chunk.js.map": "./static/js/3.365af15b.chunk.js.map",
+    "static/js/2.38fb0a4c.chunk.js": "./static/js/2.38fb0a4c.chunk.js",
+    "static/js/2.38fb0a4c.chunk.js.map": "./static/js/2.38fb0a4c.chunk.js.map",
+    "static/js/3.3d688f84.chunk.js": "./static/js/3.3d688f84.chunk.js",
+    "static/js/3.3d688f84.chunk.js.map": "./static/js/3.3d688f84.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "./static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.36bcec14.chunk.css.map": "./static/css/main.36bcec14.chunk.css.map",
-    "static/js/2.c3d33189.chunk.js.LICENSE.txt": "./static/js/2.c3d33189.chunk.js.LICENSE.txt",
+    "static/css/main.1c77a5cd.chunk.css.map": "./static/css/main.1c77a5cd.chunk.css.map",
+    "static/js/2.38fb0a4c.chunk.js.LICENSE.txt": "./static/js/2.38fb0a4c.chunk.js.LICENSE.txt",
     "static/media/header-view.css": "./static/media/BodoniFLF-BoldItalic.f54bb34a.woff2",
     "static/media/body.css": "./static/media/dish1.03b6eb10.png",
     "static/media/contact.css": "./static/media/dish2.c34e6407.png",
     "static/media/nav.css": "./static/media/navicon.28a0804f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c2cbd3db.js",
+    "static/js/runtime-main.c9e4f34a.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.c3d33189.chunk.js",
-    "static/css/main.36bcec14.chunk.css",
-    "static/js/main.09b3c0a9.chunk.js"
+    "static/js/2.38fb0a4c.chunk.js",
+    "static/css/main.1c77a5cd.chunk.css",
+    "static/js/main.c2875d96.chunk.js"
   ]
 }
